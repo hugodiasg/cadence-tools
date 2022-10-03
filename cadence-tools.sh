@@ -12,9 +12,9 @@ sudo tar zxvpf MMSIM151.tar.gz
 sudo ln -s IC617 IC
 sudo ln -s MMSIM151 MMSIM
 sudo ln -s IC/oa_v22.50.036 OA
-mkdir license
+sudo mkdir license
 sudo cp ./IC617/license/* ./license/
-cp ~/ICTools/ponto_tools_v3 ~/.tools
+sudo cp ~/ICTools/ponto_tools_v3 ~/.tools
 sudo echo source ~/.tools >> ~/.bashrc
 
 ##license
