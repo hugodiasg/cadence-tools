@@ -17,6 +17,8 @@ sudo cp ./IC617/license/* ./license/
 sudo cp ~/ICTools/ponto_tools_v3 ~/.tools
 sudo echo source ~/.tools >> ~/.bashrc
 
+sudo ln -s libdl.so.2 /lib64/libdl.so
+
 ##license
 echo "export license dir (with all files) to windows"
 echo "windows and linux machine should have the same machine name"
